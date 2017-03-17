@@ -1,0 +1,11 @@
+/routes/web.php -> define as rotas
+Ex:
+Route::get('/', function () {
+    return view('welcome');
+});
+// Vai para view welcome
+
+/resources/views/welcome.blade.php
+Sempre uma view termina com ".blade.php" no nome
+
+Instalar extensão jsonformatter no navegador
